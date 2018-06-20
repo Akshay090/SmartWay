@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A9143C</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#FAB821</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorIcon">#444444</color>
+    <color name="colorTabLayout">#F7F7F7</color>
+    <color name="colorBackground">#EFEFEF</color>
+    <color name="colorEditTextHint">#a8a8a8</color>
+
+    <color name="colors">#fcfcfc</color>
+    <color name="colorGray">#E9E1E5</color>
+    <color name="colorGrayDark">#B9B9B9</color>
+
+    <color name="blackTransparentHalf">#80000000</color>
+    <color name="whiteTransparentHalf">#CCffffff</color>
+
+    <!-- Placeholder colors-->
+    <color name="placeholder_color">#999999</color>
+
+    <color name="colorText">#6B6B76</color>
+    <color name="colorRipple">#F816A463</color>
+    <color name="colorButtons">#1FBAD6</color>
+    <color name="btnRegister">#83838C</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2cc</color>
+    <color name="bg_screen3">#4495ff</color>
+    <color name="bg_screen4">#f4b241</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#3378d4</color>
+    <color name="dot_dark_screen4">#ffa000</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#f9c772</color>
+
+</resources>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "724203803888",
+    "firebase_url": "https://smartway-da89a.firebaseio.com",
+    "project_id": "smartway-da89a",
+    "storage_bucket": "smartway-da89a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724203803888:android:6300f9d6122c9288",
+        "android_client_info": {
+          "package_name": "com.idealtechcontrivance.ashish.smartway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724203803888-l3d2lmu3g9m148ab29gmgg3d8n3pnttc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.idealtechcontrivance.ashish.smartway",
+            "certificate_hash": "34817ce8af7b0ad7df9e59f1966d5139a0c505b4"
+          }
+        },
+        {
+          "client_id": "724203803888-1av0grhecvsstjj1m6lju7cioqjudtlf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "724203803888-1av0grhecvsstjj1m6lju7cioqjudtlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCqUB6k4FWaNKu3fbJsN7UezbNrrdt0Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724203803888-1av0grhecvsstjj1m6lju7cioqjudtlf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
