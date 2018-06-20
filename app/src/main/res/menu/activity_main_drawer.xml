@@ -7,35 +7,41 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_home"
-            android:title="@string/home" />
-        <item
-            android:id="@+id/nav_test_series"
-            android:icon="@drawable/ic_menu_test_series"
-            android:title="@string/test_series" />
-        <item
-            android:id="@+id/nav_courses"
-            android:icon="@drawable/ic_menu_course"
-            android:title="@string/courses" />
-        <item
-            android:id="@+id/nav_faq"
-            android:icon="@drawable/ic_menu_faq"
-            android:title="@string/faq" />
-        <item
-            android:id="@+id/nav_contact_us"
-            android:icon="@drawable/ic_menu_contact"
-            android:title="@string/contact_us" />
-        <item
-            android:id="@+id/nav_about_us"
-            android:icon="@drawable/ic_menu_about"
-            android:title="@string/about_us" />
-        <item
-            android:id="@+id/nav_rate_app"
-            android:icon="@drawable/ic_menu_rate"
-            android:title="@string/rate_app" />
-        <item
-            android:id="@+id/nav_share_app"
-            android:icon="@drawable/ic_menu_share"
-            android:title="@string/share_app" />
+            android:title="Home" />
     </group>
+
+    <item android:title="Quick Pages">
+        <menu>
+            <item
+                android:id="@+id/nav_favourites"
+                android:icon="@drawable/ic_menu_favorite"
+                android:title="Favourites" />
+            <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_menu_cart"
+                android:title="My Cart" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_info"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+    <item android:title="Reach Us">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_menu_contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_menu_star"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_menu_share_app"
+                android:title="Share App" />
+        </menu>
+    </item>
 
 </menu>

@@ -1,281 +1,38 @@
 <resources>
-    <string name="app_name">Exam Cracker</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_dashboard">DashboardActivity</string>
-    <string name="title_activity_maps">Map</string>
-
-    <!-- TODO: Login With FB -->
-    <string name="facebook_app_id">232291267519027</string>
-    <string name="fb_login_protocol_scheme">fb232291267519027</string>
-
-    <!-- TODO: Navigation Drawer -->
+    <string name="app_name">SmartWay</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_user">UserActivity</string>
 
-    <!-- TODO: Dashboard Navigation Menu -->
-    <string name="dashboard">Dashboard</string>
-    <string name="my_test">My Test</string>
-    <string name="my_course">My Course</string>
-    <string name="estudy_material">EStudy Material</string>
-    <string name="reports">Reports</string>
-    <string name="my_wallet">My Wallet</string>
-    <string name="impotent_document">Important Document</string>
-    <string name="testimonial">Testimonial</string>
-    <string name="buy_courses">Buy Courses</string>
-    <string name="buy_test_series">Buy Test Series</string>
+    <!--Intro slider texts -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
 
-    <!-- TODO: Dashboard Action Menu -->
-    <string name="inbox">Inbox</string>
-    <string name="news">News</string>
-    <string name="bookmark">Bookmark</string>
-    <string name="change_password">Change Password</string>
-    <string name="logout">Logout</string>
-
-    <!-- TODO: Home Navigation Menu -->
-    <string name="home">Home</string>
-    <string name="test_series">Test Series</string>
-    <string name="courses">Courses</string>
-    <string name="faq">FAQ</string>
-    <string name="contact_us">Contact Us</string>
-    <string name="about_us">About Us</string>
-    <string name="rate_app">Rate App</string>
-    <string name="share_app">Share App</string>
-
-    <!-- TODO: Home Action Menu -->
-    <string name="more">more</string>
-    <string name="notification">Notification</string>
-    <string name="language">Language</string>
-    <string name="night_mode">Night Mode</string>
-
-    <!-- TODO: Home Layout-->
-    <string name="testimonials">TESTIMONIALS</string>
-    <string name="features">FEATURES</string>
-    <string name="see_more">More</string>
-
-    <!-- TODO: Dashboard Layout-->
-    <string name="free_packages">FREE PACKAGES</string>
-    <string name="paid_packages">PAID PACKAGES</string>
-    <string name="latest_packages">LATEST PACKAGES</string>
-    <string name="popular_packages">POPULAR PACKAGES</string>
-
-    <!-- TODO: Latest Package -->
-    <string name="package_name">Package Name</string>
-    <string name="full_test">Full Length</string>
-    <string name="practice_test">Practice</string>
-    <string name="sectional_test">Sectional</string>
-    <string name="buy">Buy</string>
-
-    <!-- TODO: Student Details-->
-    <string name="full_name">Full Name</string>
-    <string name="birth_date">Birth Date</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="gender">Gender</string>
-    <string name="qualification">Qualification</string>
-    <string name="address">Address</string>
-    <string name="state">State</string>
-    <string name="city">City</string>
-    <string name="zip_code">Zip Code</string>
-    <string name="save">SAVE</string>
-
-    <!--TODO: Get In Touch-->
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="email_address">Email Address</string>
-    <string name="mobile_number">Mobile Number</string>
-    <string name="message">Message</string>
-    <string name="enter_your_message_for_us_here_we_will_get_back_to_you_within_2_business_days">Enter your message for us here. We will get back to you within 2 business days.</string>
-    <string name="send">SEND</string>
-
-    <!--TODO: Our Office-->
-    <string name="contacts"><u><b>Contacts</b></u></string>
-
-    <!--TODO: Dashboard Testimonial-->
-    <string name="exam_cleared">Exam Cleared</string>
-    <string name="testimonial_must_be_30_to_70_character">Testimonial (Must be 30 to 70 character)</string>
-    <string name="submit">SUBMIT</string>
-
-    <!-- TODO: Rupee Sign -->
-    <string name="Rs">\u20B9</string>
-
-    <!-- TODO: Buy Package Instruction -->
-    <string name="order_summary">ORDER SUMMARY</string>
-    <string name="total">Total</string>
-    <string name="rs">Rs.</string>
-    <string name="discount">Discount</string>
-    <string name="grand_total">Grand Total</string>
-    <string name="apply_coupon">Apply Coupon</string>
-    <string name="make_payment">Make Payment</string>
-    <string name="important_instructions">IMPORTANT INSTRUCTIONS</string>
-    <string name="Coupon"><b>Coupon :</b> Please verify your coupon code before entering it. Specially check for uppercase, lowercase and numeric while entering.</string>
-    <string name="BuyOnline"><b>Buy Online :</b> Pay money online with secured instamojo gateway and get your package.</string>
-
-    <!-- TODO: Package Information -->
-    <string name="number_of_test">Number of Test</string>
-    <string name="sectional_tests">Sectional Tests</string>
-    <string name="highlights">Highlights</string>
-    <string name="practice_tests">Practice Tests</string>
-    <string name="full_length_tests">Full Length Tests</string>
-    <string name="total_test">Total Test</string>
-    <string name="full_length">Full Length</string>
-    <string name="practice">Practice</string>
-    <string name="sectional">Sectional</string>
-    <string name="price">Price</string>
-    <string name="buy_now">Buy Now</string>
-
-    <!-- TODO: Test Series Layout -->
-    <string name="all">All</string>
-
-    <!-- TODO: Home Testimonial Layout -->
-    <string name="name">Name</string>
-    <string name="student">Student</string>
-
-    <!-- TODO: Navigation Header -->
-    <string name="welcome">Welcome,</string>
-    <string name="login">Login</string>
-    <string name="welcome_guest">Welcome Guest,</string>
-
-    <!-- TODO: Change Password -->
-    <string name="old_password">Old Password</string>
-    <string name="enter_old_password">Enter Old Password</string>
-    <string name="new_password">New Password</string>
-    <string name="enter_new_password">Enter New Password</string>
-    <string name="confirm_password">Confirm Password</string>
-    <string name="confirm_new_password">Confirm New Password</string>
-    <string name="change">CHANGE</string>
-
-    <!-- TODO: Send Message -->
-    <string name="to">To</string>
-    <string name="subject">Subject</string>
-    <string name="description">Description</string>
-    <string name="reset">RESET</string>
-
-    <!-- TODO: Package Detail Layout -->
-    <string name="similar_packages">SIMILAR PACKAGES</string>
-
-    <!-- TODO: SignIn / SignUp-->
-    <string name="user_name">User Name</string>
-    <string name="password">Password</string>
-    <string name="sign_in">SIGN IN</string>
-    <string name="forgot_password">Forgot Password?</string>
-    <string name="or">OR</string>
-    <string name="facebook">Facebook</string>
-    <string name="google">Google</string>
-    <string name="don_t_have_an_account">Don\'t have an account? </string>
-    <string name="register_now">Register Now</string>
-    <string name="sign_up">SIGN UP</string>
-    <string name="i_agree_to">I agree to</string>
-    <string name="terms_amp_conditions"><![CDATA[ terms & conditions]]></string>
-
-    <string name="action_deep_link">
-        com.delaroystudios.appinvites.DEEP_LINK_ACTION
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!
     </string>
 
-    <string name="invite">Send invitations!</string>
-    <string name="welcomes">App Invite\nQuickstart</string>
-    <string name="referrer_hint">Deep link not provided</string>
-    <string name="deep_link_default">Deep link not set</string>
-    <string name="invitation_id_default">Invitation ID not set</string>
-    <string name="invite_friends">Invite Friends</string>
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
 
-    <string name="invitation_title">Send App Invite Quickstart Invitation</string>
-    <string name="invitation_message">This app is terrific, give it a try and get $5 off!</string>
-    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
-    <string name="invitation_custom_image">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
-    <string name="invitation_cta">Install!</string>
-    <string name="invitation_subject">Try this great app!</string>
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
 
-    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
-    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
-
-    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
-    <string name="send_failed">Sending invitations failed</string>
-    <string name="invite_dialog_title">You got an invitation!</string>
-
-    <string name="google_play_services_error">Google Play Services Error</string>
-    <string name="custom_invite">Custom Invite</string>
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
 
 
-    <string name="profile">Profile</string>
-    <string name="instruction">Instruction</string>
-    <string name="question_paper">Question Paper</string>
+    <string name="action_location">Location</string>
+    <string name="action_share">Share</string>
+    <string name="action_offer_near_me">Offer Near Me</string>
+    <string name="action_login">Login</string>
+    <string name="action_active_card">Active Card</string>
 
-    <!-- TODO: -->
-    <string name="icone">Icone</string>
-    <string name="number_prefix">.</string>
-    <string name="_0">0</string>
-    <string name="sr_no">Sr.No.</string>
-    <string name="test_name">Test Name</string>
-    <string name="attempt">Attempt</string>
-    <string name="r_q">R.Q</string>
-    <string name="w_q">W.Q</string>
-    <string name="l_q">L.Q</string>
-    <string name="max">Max.</string>
-    <string name="t_m">T.M</string>
-    <string name="completed_date">Completed Date</string>
-    <string name="solutions">Solutions</string>
-    <string name="test_detail">Test Detail</string>
-    <string name="test_subject">Test Subject</string>
-    <string name="packages">Package</string>
-    <string name="test_status">Test Status</string>
-    <string name="published_date">Published Date</string>
-    <string name="transaction_id">Transaction Id</string>
-    <string name="validity_in_month">Validity(in month)</string>
-    <string name="purchasing_date">Purchasing Date</string>
-    <string name="expiry_date">Expiry Date</string>
-    <string name="coupon_code">Coupon Code</string>
-    <string name="start_test">Start Test</string>
-    <string name="general_instructions">General Instructions</string>
-    <string name="_4_you_can_click_on_the_arrow_which_appears_to_the_left_of_question_palette_to_collapse_the_question_palette_thereby_maximizing_the_question_window_to_view_the_question_palette_again_you_can_click_on_which_appears_on_the_right_side_of_question_window"><![CDATA[4. You can click on the \">\" arrow which appears to the left of question palette to collapse the question palette thereby maximizing the question window. To view the question palette again, you can click on \"<\" which appears on the right side of question window.]]></string>
-    <string name="_1_total_duration_of_examination_is">1. Total duration of examination is</string>
-    <string name="minutes">minutes.</string>
-    <string name="_2_the_clock_has_been_set_at_the_server_countdown_timer_in_the_top_right_corner_of_screen_will_display_the_remaining_time_available_for_you_to_complete_the_examination_when_the_timer_reaches_zero_the_examination_will_end_by_itself_you_will_not_be_required_to_end_or_submit_your_examination">2. The clock has been set at the server. Countdown timer in the top right corner of screen will display the remaining time available for you to complete the examination. When the timer reaches zero.the examination will end by itself. You will not be required to end or submit your examination.</string>
-    <string name="_3_the_question_palette_displayed_on_the_right_side_of_screen_will_show_the_status_of_each_question_using_one_of_the_following_symbols">3. The Question Palette displayed on the right side of screen will show the status of each question using one of the following symbols:</string>
-    <string name="you_have_not_visited_the_question_yet"><b>You have not visited the question yet.</b></string>
-    <string name="you_have_not_answered_the_question"><b>You have not answered the question.</b></string>
-    <string name="you_have_answered_the_question"><b>You have answered the question.</b></string>
-    <string name="you_have_marked_the_question_for_review"><b>You have marked the question for review.</b></string>
-    <string name="the_marked_for_review_status_for_a_question_simply_indicates_that_you_would_like_to_look_at_that_question_again_if_a_question_is_answered_and_marked_for_review_your_answer_for_that_question_will_be_considered_in_the_evaluation">The Marked for Review status for a question simply indicates that you would like to look at that question again. <font fgcolor='#FF0000'> If a question is answered and Marked for Review, your answer for that question will be considered in the evaluation.</font></string>
-    <string name="test_type">Test Type</string>
-    <string name="time">Time</string>
-    <string name="question">Question</string>
-    <string name="_1_you_have">1. You have</string>
-    <string name="minutes_to_complete_the_test"><b>minutes</b> to complete the test.</string>
-    <string name="_2_the_test_contains_a_total_of">2. The test contains a total of</string>
-    <string name="questions"><b>questions.</b></string>
-    <string name="_3_there_is_only_one_correct_answer_to_each_question_click_on_the_most_appropriate_option_to_mark_it_as_your_answer">3. There is only one correct answer to each question. Click on the most appropriate option to mark it as your answer.</string>
-    <string name="_4_you_will_be_awarded_one_mark_for_each_correct_answer">4. You will be awarded <b>One mark</b> for each correct answer.</string>
-    <string name="_5_there_is_0_25_penalty_mark_for_each_wrong_answer">5. There is <b>0.25 penalty mark</b> for each wrong answer.</string>
-    <string name="_6_you_can_change_your_answer_by_clicking_on_some_other_option">6. You can change your answer by clicking on some other option.</string>
-    <string name="_7_you_can_unmark_your_answer_by_clicking_on_the_clear_response_button">7. You can unmark your answer by clicking on the â€œclear responseâ€ button.</string>
-    <string name="_8_you_can_flag_a_question_for_reviewing_it_later_by_clicking_on_the_mark_for_review_button_once_clicked_the_button_changes_to_marked_for_review_click_unmarked_button_no_to_unmark_the_question">8. You can flag a question for reviewing it later by clicking on the â€œmark for reviewâ€ button. Once clicked, the button changes to â€œMarked for reviewâ€. Click â€œunmarked button noâ€ to unmark the question.</string>
-    <string name="_9_you_can_move_back_and_forth_between_the_questions_by_clicking_the_buttons_previous_and_next_respectively">9. You can move back and forth between the questions by clicking the buttons â€œPreviousâ€ and â€œNextâ€ respectively.</string>
-    <string name="_10_a_number_list_of_all_questions_appears_at_the_right_hand_side_of_the_screen_you_can_access_the_questions_in_any_order_within_a_section_or_across_sections_by_clicking_on_the_question_number_given_on_the_number_list">10.A Number list of all questions appears at the right hand side of the screen. You can access the questions in any order within a section or across sections by clicking on the question number given on the number list.</string>
-    <string name="_11_you_can_use_rough_sheets_while_taking_the_test_do_not_use_calculators_log_tables_dictionaries_or_any_other_printed_online_reference_material_during_the_test">11.You can use rough sheets while taking the test. Do not use calculators, log tables, dictionaries, or any other printed/online reference material during the test.</string>
-    <string name="_12_do_not_click_the_button_submit_test_before_completing_the_test_a_test_once_submitted_cannot_be_resumed">12. Do not click the button â€œSubmit testâ€ before completing the test. A test once submitted cannot be resumed.</string>
-    <string name="_13_don_t_be_panic_if_your_test_get_interrupted_for_any_reason_you_can_resume_it_later_from_my_test_panel">13.Don\'t be panic if your test get interrupted for any reason, You can resume it later from my test panel.</string>
-    <string name="tips">Tips</string>
-    <string name="this_test_is_for_your_personal_practice_and_improvement">This test is for your personal practice and improvement.</string>
-    <string name="do_not_cheat_take_it_seriously">Do not cheat. Take it seriously.</string>
-    <string name="please_view_complete_report_after_test">Please view complete report after test.</string>
-    <string name="analyze_your_performance_try_to_solve_all_questions_after_test">Analyze your performance, try to solve all questions after test.</string>
-    <string name="after_analysis_work_on_your_weak_areas_give_practice_test_on_the_topic">After analysis, Work on your weak areas, give practice test on the topic.</string>
-
-    <string name="please_note_all_questions_will_appear_in_your_default_language_i_have_read_and_understood_the_instructions_i_agree_that_in_the_case_of_not_adhering_to_the_instructions_i_shall_be_liable_to_be_debarred_from_this_test_and_or_to_disciplinary_action_which_may_include_ban_from_future_tests"><font fgcolor='#FF0000'>Please note all questions will appear in your default language. I have read and understood the instructions. I agree that in the case of not adhering to the instructions, I shall be liable to be debarred from this Test and/or to disciplinary action, which may include ban from future Tests.</font></string>
-
-    <string name="start_now">START NOW</string>
-    <string name="timer">Timer</string>
-    <string name="review_next"><![CDATA[REVIEW & NEXT]]></string>
-    <string name="clear_response">CLEAR RESPONSE</string>
-    <string name="save_next"><![CDATA[SAVE & NEXT]]></string>
-    <string name="under_development">Under Development</string>
-    <string name="test_not_found">Test Not Found</string>
-    <string name="n_a">N/A</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
