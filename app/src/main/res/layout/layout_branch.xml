@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    app:cardUseCompatPadding="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/branchNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Branch"
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/branchFAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G-18/19, Sun Plaza-2, Near Vadsar Bridge,"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/branchSAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Below Raj Bank,"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/branchCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vadodara"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=", "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/branchState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gujarat"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/branchArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manjalour"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/branchPincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="390011"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/branchPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9999999999"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
