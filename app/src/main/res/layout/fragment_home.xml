@@ -181,13 +181,17 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:weightSum="2"
+                    android:background="#EFEFEF"
                     >
                     <LinearLayout
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border_dashed"
-                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="10dp"
+
                         android:id="@+id/single_cpn"
                         android:layout_weight="1"
                         >
@@ -203,8 +207,8 @@
                             <ImageView
                                 android:src="@drawable/single_cpn"
                                 android:id="@+id/single_cpn_img"
-                                android:layout_width="55dp"
-                                android:layout_height="55dp"/>
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
 
                             <TextView
                                 android:id="@+id/single_cpn_txt"
@@ -225,7 +229,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border_dashed"
-                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="5dp"
                         android:id="@+id/multi_cpn"
                         android:layout_weight="1">
 
@@ -239,8 +245,8 @@
                             <ImageView
                                 android:src="@drawable/multi_cpn"
                                 android:id="@+id/multi_cpn_img"
-                                android:layout_width="55dp"
-                                android:layout_height="55dp"/>
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
 
                             <TextView
                                 android:id="@+id/multi_cpn_txt"
