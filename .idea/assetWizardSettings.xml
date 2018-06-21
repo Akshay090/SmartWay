@@ -41,13 +41,27 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="35" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                     </map>
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="backgroundColor" value="00e9ff" />
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="backgroundColor" value="1696b6" />
+                                      <entry key="cropped" value="true" />
                                       <entry key="iconShape" value="CIRCLE" />
-                                      <entry key="outputName" value="ic_menu_nav" />
+                                      <entry key="imageAsset" value="D:\otp_image.png" />
+                                      <entry key="outputName" value="ic_otp" />
                                     </map>
                                   </option>
                                 </PersistentState>

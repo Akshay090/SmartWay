@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c3060451"
+
+    >
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:src="@mipmap/ic_otp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We just send you a text...."
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:typeface="serif"
+            />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Enter Your OTP"
+        android:textColorHint="#fff"
+
+        android:inputType="numberDecimal"
+        android:background="@drawable/otp_box"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Didn't get the text?"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textSize="12sp"
+        android:typeface="normal"
+        />
+
+    
+
+
+
+
+
+
+
+</LinearLayout>
