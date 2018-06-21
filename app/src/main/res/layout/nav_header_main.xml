@@ -5,49 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/side_nav_bar">
+    android:weightSum="2"
+    android:padding="8dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="SmartWay"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#9e9e9e"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#b6b4b3"
+        />
+
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_margin="16dp"
-        android:weightSum="1">
+        android:layout_weight="1"
+        >
 
         <ImageView
-            android:id="@+id/avatar"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/ic_menu_person" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_menu_nav"
+            />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="Log In or Sign Up"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:text="Welcome Guest,"
-                android:textColor="@color/colorWhite"
-                android:textSize="15sp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/name"
-                android:gravity="start"
-                android:paddingLeft="10dp"
-                android:text="Login"
-                android:textStyle="bold"
-                android:textColor="@color/colorWhite"
-                android:textSize="16sp"/>
-        </LinearLayout>
 
     </LinearLayout>
+
+
 
 </LinearLayout>
